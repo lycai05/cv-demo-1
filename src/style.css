@@ -1,0 +1,27 @@
+#wrapper {
+    position: relative;
+}
+
+#div1 {
+position: fixed;
+left: 50%;
+transform: translateX(-50%);
+top: 20px;
+word-break: break-all;
+}
+
+#div1::before {
+    content: "";
+    display: block;
+    position: absolute;
+}
+
+#div1::after {
+    content: "";
+    display: block;
+    position: absolute;
+}
+
+/* @media (max-width: 500px) {
+    #html
+} */
